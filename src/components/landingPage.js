@@ -30,8 +30,8 @@ class LandingPage extends Component{
             <i className="fa fa-github-square" aria-hidden="true" />
           </a>
 
-          {/* Freecodecamp */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          {/* HackerRank */}
+          <a href="https://www.hackerrank.com/fadyibrahim37" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-free-code-camp" aria-hidden="true" />
           </a>
 
