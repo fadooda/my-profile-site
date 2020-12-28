@@ -18,8 +18,9 @@ height: 100%;
 }
 
 .profile-img{
-  height: 250px;
+  width: 200px;
   padding-top: 5em;
+  border-radius: 40%;
 }
 
 .banner-text{

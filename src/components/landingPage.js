@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import {Grid, Cell} from 'react-mdl'
+import ProfileImg from '../ProfilePic.jpg'
 
 class LandingPage extends Component{
     render(){
@@ -8,13 +9,13 @@ class LandingPage extends Component{
                 <Grid className='landing-grid'>
                     <Cell col={12}>
                         <img
-                        src="https://www.kindpng.com/picc/m/22-223941_transparent-avatar-png-male-avatar-icon-transparent-png.png"
-                        alt="avatar"
+                        src={ProfileImg}
+                        alt="profile image"
                         className='profile-img'
                         />
                         <div className="banner-text">
                             <h1 >
-                                Full-Stack web developer
+                                Full-Stack Web Developer
                             </h1>
                             <hr/>
                             <p>HTML/CSS | Bootstrap | JavaScript | React | NodeJS | Express | MongoDB</p>
@@ -32,7 +33,7 @@ class LandingPage extends Component{
 
           {/* HackerRank */}
           <a href="https://www.hackerrank.com/fadyibrahim37" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-free-code-camp" aria-hidden="true" />
+            <i className="fa fa-user-secret" aria-hidden="true" />
           </a>
 
           {/* LeetCode */}
