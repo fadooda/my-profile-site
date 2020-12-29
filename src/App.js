@@ -14,7 +14,7 @@ class App extends React.Component {
       <div className="App">
 <div className="demo-big-content">
     <Layout>
-        <Header className='header-color' title="Fady Ibrahim" scroll>
+        <Header className='header-color' href='/' title="Fady Ibrahim" scroll>
             <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About me</Link>

@@ -20,7 +20,7 @@ height: 100%;
 .profile-img{
   width: 200px;
   padding-top: 5em;
-  border-radius: 40%;
+  border-radius: 90%;
 }
 
 .banner-text{
@@ -58,4 +58,8 @@ height: 100%;
   color: white;
   font-size: 5em;
   padding: 8px;
+}
+
+.projects-grid {
+  display: flex;
 }
