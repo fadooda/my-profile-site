@@ -5,9 +5,15 @@ class Skills extends Component{
     render(){
         return(
             <Grid>
-                <Cell col={12}>
-                    <div style ={{display: 'flex'}}>
-                        {this.props.skill} <ProgressBar style={{margin: 'auto', width:'75%'}}/>
+                <Cell col={1}>
+                    <div >
+                        {this.props.skill}
+                    </div>
+                </Cell>
+                <Cell col={11}>
+                    <div >
+                        <ProgressBar style={{margin: 'auto', width:'75%'}}
+                        progress={this.props.progress}/>
                     </div>
                 </Cell>
 

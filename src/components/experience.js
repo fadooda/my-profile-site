@@ -10,7 +10,10 @@ class Experience extends Component{
                 </Cell>
                 <Cell col={8}>
                     <h4 style={{marginTop: '0px'}}>{this.props.jobName}</h4>
-                    <p>{this.props.degree}</p>
+                    {(this.props.situation)? <p> <i className="fa fa-star" aria-hidden="true" />{this.props.situation}</p> : null}
+                    {(this.props.taskassigned)? <p> <i className="fa fa-star" aria-hidden="true" />{this.props.taskassigned}</p> : null}
+                    {(this.props.actiontook)? <p> <i className="fa fa-star" aria-hidden="true" />{this.props.actiontook}</p> : null}
+                    {(this.props.result)? <p> <i className="fa fa-star" aria-hidden="true" />{this.props.result}</p> : null}
                 </Cell>
             </Grid>
         )

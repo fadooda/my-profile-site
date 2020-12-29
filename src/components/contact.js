@@ -12,8 +12,8 @@ class Contact extends Component{
                         <img
                         src={profileImg}
                         alt="profileImg"
-                        style={{height: '250px',}}/>
-                        <p style={{width: '75%',margin: 'auto', paddingTop: '1em'}}>qoute</p>
+                        style={{height: '250px',borderRadius: '20%'}}/>
+                        <p style={{width: '75%',margin: 'auto', paddingTop: '1em'}}>The important thing is not to stop questioning. Curiosity has its own reason for existing.</p>
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>

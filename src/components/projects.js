@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import {Link} from 'react-router-dom'
 import {Tabs,Tab,Grid,Cell, Card, CardTitle,CardText, CardActions, Button, CardMenu, IconButton} from 'react-mdl'
 class Project extends Component{
     constructor(props){
@@ -7,52 +8,52 @@ class Project extends Component{
             activeTab: 0
         }
       }
+
       toggleCategories(){
         if(this.state.activeTab===0){
             return(
                 <div className="projects-grid">
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: 'black', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover'}}>React Project: game-site</CardTitle>
+                        
                         <CardText>
                             An interactive online gaming site to showcase the power of websockets!! Grab a friend come on over and play!
                         </CardText>
+
                         <CardActions border>
-                            <Button colored>github</Button>
-                            <Button colored>codepen</Button>
-                            <Button colored>live demo</Button>
+                            <a href="https://github.com/fadooda/my-profile-site"  rel="noopener noreferrer" target="_blank">
+                                <Button colored >github</Button>
+                            </a>
+                            <a href="https://github.com/fadooda/my-profile-site"  rel="noopener noreferrer" target="_blank">
+                                <Button colored >live demo</Button>
+                            </a>
                         </CardActions>
+
                         <CardMenu style={{color:'#fff'}}>
                             <IconButton name="share"/>
                         </CardMenu>
                     </Card>
+
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color:  'black', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover'}}>React Project: profile-site</CardTitle>
+                        
                         <CardText>
                             An interactive online gaming site to showcase the power of websockets!! Grab a friend come on over and play!
                         </CardText>
+                        
                         <CardActions border>
-                            <Button colored>github</Button>
-                            <Button colored>codepen</Button>
-                            <Button colored>live demo</Button>
+                            <a href="https://github.com/fadooda/my-profile-site"  rel="noopener noreferrer" target="_blank">
+                                <Button colored >github</Button>
+                            </a>
+                            <a href="/">
+                                <Button colored >live demo</Button>
+                            </a>
                         </CardActions>
                         <CardMenu style={{color:'#fff'}}>
                             <IconButton name="share"/>
                         </CardMenu>
                     </Card>
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color:  'black', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover'}}>React Project: game-site</CardTitle>
-                        <CardText>
-                            An interactive online gaming site to showcase the power of websockets!! Grab a friend come on over and play!
-                        </CardText>
-                        <CardActions border>
-                            <Button colored>github</Button>
-                            <Button colored>codepen</Button>
-                            <Button colored>live demo</Button>
-                        </CardActions>
-                        <CardMenu style={{color:'#fff'}}>
-                            <IconButton name="share"/>
-                        </CardMenu>
-                    </Card>
+
                 </div>
 
             )
@@ -104,16 +105,6 @@ class Project extends Component{
                 </div>
             )
 
-        }else if(this.state.activeTab===2){
-            return(
-                <div></div>
-            )
-            
-        }else if(this.state.activeTab===3){
-            return(
-                <div></div>
-            )
-            
         }
       }
       
@@ -124,7 +115,6 @@ class Project extends Component{
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId)=> this.setState({activeTab: tabId})} ripple>
                     <Tab>React</Tab>
                     <Tab>NodeJS</Tab>
-                    <Tab>MongoDB</Tab>
                 </Tabs>
                 <Grid >
                     <Cell col={12}>
