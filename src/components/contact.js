@@ -20,14 +20,23 @@ class Contact extends Component{
                         <hr/>
                         <div className="contact-list">
                             <List>
-                                <ListItem style={{fontSize: '25px', fontFamily: 'Anton'}}>
-                                <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>Bryan Cranston</ListItemContent>
+                                <ListItem >
+                                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                                    <i className='fa fa-phone-square' aria-hidden="true"/>
+                                    (226) 779-4394
+                                </ListItemContent>
                                 </ListItem>
-                                <ListItem style={{fontSize: '25px', fontFamily: 'Anton'}}>
-                                <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>Bryan Cranston</ListItemContent>
+                                <ListItem >
+                                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                                    <i className='fa fa-envelope' aria-hidden="true"/>
+                                    fadyibrahim37@gmail.com
+                                </ListItemContent>
                                 </ListItem>
-                                <ListItem style={{fontSize: '25px', fontFamily: 'Anton'}}>
-                                <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>Bryan Cranston</ListItemContent>
+                                <ListItem >
+                                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                                    <i className='fa fa-skype' aria-hidden="true"/>
+                                    live:fady31_1
+                                </ListItemContent>
                                 </ListItem>
                             </List>
                         </div>
