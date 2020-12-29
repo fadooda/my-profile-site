@@ -20,14 +20,14 @@ class Contact extends Component{
                         <hr/>
                         <div className="contact-list">
                             <List>
-                                <ListItem>
-                                <ListItemContent icon="person">Bryan Cranston</ListItemContent>
+                                <ListItem style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>Bryan Cranston</ListItemContent>
                                 </ListItem>
-                                <ListItem>
-                                <ListItemContent icon="person">Aaron Paul</ListItemContent>
+                                <ListItem style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>Bryan Cranston</ListItemContent>
                                 </ListItem>
-                                <ListItem>
-                                <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
+                                <ListItem style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>Bryan Cranston</ListItemContent>
                                 </ListItem>
                             </List>
                         </div>
