@@ -21,11 +21,11 @@ class Project extends Component{
                         </CardText>
 
                         <CardActions border>
-                            <a href="https://github.com/fadooda/my-profile-site"  rel="noopener noreferrer" target="_blank">
+                            <a href="https://github.com/fadooda/game-site-react-app"  rel="noopener noreferrer" target="_blank">
                                 <Button colored >github</Button>
                             </a>
-                            <a href="https://github.com/fadooda/my-profile-site"  rel="noopener noreferrer" target="_blank">
-                                <Button colored >live demo</Button>
+                            <a href="https://free-games-online.netlify.app/"  rel="noopener noreferrer" target="_blank">
+                                <Button colored >live site</Button>
                             </a>
                         </CardActions>
 
@@ -46,7 +46,7 @@ class Project extends Component{
                                 <Button colored >github</Button>
                             </a>
                             <a href="/">
-                                <Button colored >live demo</Button>
+                                <Button colored >live site</Button>
                             </a>
                         </CardActions>
                         <CardMenu style={{color:'#fff'}}>
@@ -66,9 +66,9 @@ class Project extends Component{
                             Check out the node server for authenticating users!
                         </CardText>
                         <CardActions border>
-                            <Button colored>github</Button>
-                            <Button colored>codepen</Button>
-                            <Button colored>live demo</Button>
+                            <a href="https://github.com/fadooda/game-site-authenticate-users-app"  rel="noopener noreferrer" target="_blank">
+                                <Button colored >github</Button>
+                            </a>
                         </CardActions>
                         <CardMenu style={{color:'#fff'}}>
                             <IconButton name="share"/>
@@ -80,9 +80,9 @@ class Project extends Component{
                             Interested in finding out how the tictactoe websockets work? Check out this server!
                         </CardText>
                         <CardActions border>
-                            <Button colored>github</Button>
-                            <Button colored>codepen</Button>
-                            <Button colored>live demo</Button>
+                            <a href="https://github.com/fadooda/game-site-ticktactoe-app"  rel="noopener noreferrer" target="_blank">
+                                <Button colored >github</Button>
+                            </a>
                         </CardActions>
                         <CardMenu style={{color:'#fff'}}>
                             <IconButton name="share"/>
@@ -91,12 +91,12 @@ class Project extends Component{
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color:  'black', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover'}}>NodeJS Project: Chat-Server</CardTitle>
                         <CardText>
-                            Want to know how to make a facebook replica messaging server? Check out this server!
+                            Want to know how to make a facebook replica messaging service? Check out this server!
                         </CardText>
                         <CardActions border>
-                            <Button colored>github</Button>
-                            <Button colored>codepen</Button>
-                            <Button colored>live demo</Button>
+                            <a href="https://github.com/fadooda/game-site-chat-app"  rel="noopener noreferrer" target="_blank">
+                                <Button colored >github</Button>
+                            </a>
                         </CardActions>
                         <CardMenu style={{color:'#fff'}}>
                             <IconButton name="share"/>
