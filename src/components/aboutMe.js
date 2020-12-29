@@ -34,6 +34,31 @@ class Resume extends Component{
 
                         <hr style={{borderTop: '3px solid #e22947'}} />      
                         <h2>Hobbies</h2>
+                        
+                        <p>
+                            <i className="fa fa-bug" aria-hidden="true"  style={{paddingRight: '1em'}}/>
+                            Spending time with family and friends
+                        </p>
+                        <p>
+                            <i className="fa fa-bug" aria-hidden="true"  style={{paddingRight: '1em'}}/>
+                            Nature walks
+                        </p>
+                        <p>
+                            <i className="fa fa-bug" aria-hidden="true"  style={{paddingRight: '1em'}}/>
+                            Video games (e.g Rocket League)
+                        </p>
+                        <p>
+                            <i className="fa fa-bug" aria-hidden="true"  style={{paddingRight: '1em'}}/>
+                            Advancing my knowledge and experties of full-stack development
+                        </p>
+                        <p>
+                            <i className="fa fa-bug" aria-hidden="true"  style={{paddingRight: '1em'}}/>
+                            Working on an MERN-stack application that allows users to play games online and explore the power of web sockets
+                        </p>
+                        <p>
+                            <i className="fa fa-bug" aria-hidden="true"  style={{paddingRight: '1em'}}/>
+                            Developing long-term and short-term strategies for investing in the stock market
+                        </p>
                         </div>
                     </Cell>
                 </Grid>
