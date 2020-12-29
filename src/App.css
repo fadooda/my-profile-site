@@ -101,3 +101,10 @@ height: 100%;
   font-size: 70px;
   padding-right: 5rem;
 }
+
+.resume-right-col{
+  background: #27221F;
+  color: white;
+  padding: 2em;
+  
+}

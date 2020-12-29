@@ -12,7 +12,7 @@ class Contact extends Component{
                         <img
                         src={profileImg}
                         alt="profileImg"
-                        style={{height: '250px'}}/>
+                        style={{height: '250px',}}/>
                         <p style={{width: '75%',margin: 'auto', paddingTop: '1em'}}>qoute</p>
                     </Cell>
                     <Cell col={6}>
