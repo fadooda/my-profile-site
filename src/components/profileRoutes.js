@@ -6,7 +6,8 @@ import Contact from './contact'
 import Projects from './projects'
 import Resume from './resume'
 const profileRoutes =()=>(
-    <Switch>
+    <Switch>  
+        {/* link  route paths to the respective component*/}
         <Route exact path="/" component={LandingPage} />
         <Route  path="/aboutme" component={AboutMe} />
         <Route  path="/resume" component={Resume} />
