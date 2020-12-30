@@ -3,9 +3,7 @@ import {Grid,Cell} from 'react-mdl'
 import profilePic from '../profilepic_with_styled_hair.jpg'
 
 class Resume extends Component{
-
     render(){
-        
         return(
             <div>
                 <Grid>
