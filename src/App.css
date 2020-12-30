@@ -122,8 +122,8 @@ height: 100%;
 }
 
 .gridfooter{
-  position: float;
-  object-fit: fill;
+  padding-top: 3em;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;

@@ -3,18 +3,27 @@ import {Grid, Cell,List,ListItem,ListItemContent} from 'react-mdl'
 import profileImg from '../profilepic_with_scenic_background.jpg'
 
 class Contact extends Component{
+
     render(){
+
         return(
+            
             <div className='contact-body'>
                 <Grid className='contact-grid'>
+                    
+                    {/* set up left side of the contact page, where the image and the quote are */}
                     <Cell col={6}>
                         <h2>Fady Ibrahim</h2>
                         <img
                         src={profileImg}
                         alt="profileImg"
                         style={{height: '250px',borderRadius: '20%'}}/>
-                        <p style={{width: '75%',margin: 'auto', paddingTop: '1em'}}>The important thing is not to stop questioning. Curiosity has its own reason for existing. -Albert Einstein</p>
+                        <p style={{width: '75%',margin: 'auto', paddingTop: '1em'}}>
+                            The important thing is to not stop questioning. 
+                            Curiosity has its own reason for existing. -Albert Einstein</p>
                     </Cell>
+
+                    {/* set up the right side with contact information */}
                     <Cell col={6}>
                         <h2>Contact Me</h2>
                         <hr/>
@@ -42,6 +51,8 @@ class Contact extends Component{
                         </div>
                 </Cell>
                 </Grid>
+
+                {/* set footer */}
                 <div className='footer'>
                                 <p>
                                     <strong>
