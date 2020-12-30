@@ -13,7 +13,7 @@ class Contact extends Component{
                         src={profileImg}
                         alt="profileImg"
                         style={{height: '250px',borderRadius: '20%'}}/>
-                        <p style={{width: '75%',margin: 'auto', paddingTop: '1em'}}>The important thing is not to stop questioning. Curiosity has its own reason for existing.</p>
+                        <p style={{width: '75%',margin: 'auto', paddingTop: '1em'}}>The important thing is not to stop questioning. Curiosity has its own reason for existing. -Albert Einstein</p>
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>
@@ -40,9 +40,15 @@ class Contact extends Component{
                                 </ListItem>
                             </List>
                         </div>
-
                 </Cell>
                 </Grid>
+                <div className='footer'>
+                                <p>
+                                    <strong>
+                                        Copyright © 2020 by Fady Ibrahim. All Rights Reserved.
+                                    </strong>
+                                </p>
+                            </div>
             </div>
         )
     }

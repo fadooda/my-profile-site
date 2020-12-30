@@ -61,6 +61,13 @@ class Resume extends Component{
                         </p>
                         </div>
                     </Cell>
+                    <div className='gridfooter'>
+                        <p className='gridfooter'>
+                            <strong>
+                                Copyright © 2020 by Fady Ibrahim. All Rights Reserved.
+                            </strong>
+                        </p>
+                    </div>
                 </Grid>
             </div>
         )

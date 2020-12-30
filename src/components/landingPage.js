@@ -45,6 +45,13 @@ class LandingPage extends Component{
                         </div>
                     </Cell>
                 </Grid>
+                <div className='footer'>
+                  <p>
+                      <strong>
+                          Copyright © 2020 by Fady Ibrahim. All Rights Reserved.
+                      </strong>
+                  </p>
+                </div>
             </div>
         )
     }

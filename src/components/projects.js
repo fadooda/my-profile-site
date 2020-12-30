@@ -38,22 +38,25 @@ class Project extends Component{
                         <CardTitle style={{color:  'black', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover'}}>React Project: profile-site</CardTitle>
                         
                         <CardText>
-                            An interactive online gaming site to showcase the power of websockets!! Grab a friend come on over and play!
+                            The code repository for this profile website.
                         </CardText>
                         
                         <CardActions border>
                             <a href="https://github.com/fadooda/my-profile-site"  rel="noopener noreferrer" target="_blank">
                                 <Button colored >github</Button>
                             </a>
-                            <a href="/">
-                                <Button colored >live site</Button>
-                            </a>
                         </CardActions>
                         <CardMenu style={{color:'#fff'}}>
                             <IconButton name="share"/>
                         </CardMenu>
                     </Card>
-
+                    <div className='footer'>
+                        <p>
+                            <strong>
+                                Copyright © 2020 by Fady Ibrahim. All Rights Reserved.
+                            </strong>
+                        </p>
+                    </div>
                 </div>
 
             )
@@ -91,7 +94,7 @@ class Project extends Component{
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color:  'black', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover'}}>NodeJS Project: Chat-Server</CardTitle>
                         <CardText>
-                            Want to know how to make a facebook replica messaging service? Check out this server!
+                            Want to know how to make a facebook-messaging service replica? Look no further! Check out this server!
                         </CardText>
                         <CardActions border>
                             <a href="https://github.com/fadooda/game-site-chat-app"  rel="noopener noreferrer" target="_blank">
@@ -102,6 +105,13 @@ class Project extends Component{
                             <IconButton name="share"/>
                         </CardMenu>
                     </Card>
+                    <div className='footer'>
+                        <p>
+                            <strong>
+                                Copyright © 2020 by Fady Ibrahim. All Rights Reserved.
+                            </strong>
+                        </p>
+                    </div>
                 </div>
             )
 

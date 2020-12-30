@@ -8,10 +8,10 @@ import Resume from './resume'
 const profileRoutes =()=>(
     <Switch>
         <Route exact path="/" component={LandingPage} />
-        <Route exact path="/aboutme" component={AboutMe} />
-        <Route exact path="/resume" component={Resume} />
-        <Route exact path="/projects" component={Projects} />
-        <Route exact path="/contact" component={Contact} />
+        <Route  path="/aboutme" component={AboutMe} />
+        <Route  path="/resume" component={Resume} />
+        <Route  path="/projects" component={Projects} />
+        <Route  path="/contact" component={Contact} />
     </Switch>
 )
 

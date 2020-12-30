@@ -34,7 +34,7 @@ class ContactInformationResume extends Component{
                 <h5>Email</h5>
                 <p>fadyibrahim37@gmail.com</p>
                 <h5>Web</h5>
-                <p>fady-ibrahim.netlify.app</p>
+                <p>https://fadyibrahim.netlify.app/</p>
                 <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             </div>
         )

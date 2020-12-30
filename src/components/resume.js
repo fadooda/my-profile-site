@@ -9,6 +9,7 @@ class Resume extends Component{
     render(){
         return(
             <div>
+                
                 <Grid>
                     <Cell col={4}>
                         <div style ={{textAlign: 'center'}}>
@@ -91,7 +92,15 @@ class Resume extends Component{
                         />
                                           
                     </Cell>
+                    <div className='gridfooter'>
+                    <p>
+                        <strong>
+                            Copyright © 2020 by Fady Ibrahim. All Rights Reserved.
+                        </strong>
+                    </p>
+                </div>
                 </Grid>
+
             </div>
         )
     }
