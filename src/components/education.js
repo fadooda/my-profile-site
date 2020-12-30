@@ -5,6 +5,8 @@ class Education extends Component{
     render(){
         return(
             <Grid>
+                
+                {/* Display: the year, school name and degree*/}
                 <Cell col={4}>
                     <p>{this.props.startYear}-{this.props.endYear}</p>
                 </Cell>
