@@ -52,7 +52,7 @@ class Contact extends Component{
                 </Cell>
                 </Grid>
 
-                {/* set footer */}
+                {/* set and style footer */}
                 <div className='footer'>
                                 <p>
                                     <strong>
