@@ -3,11 +3,13 @@ import React, {Component} from 'react'
 class ContactInformationResume extends Component{
     render(){
         return(
-            <div>                        
+            <div> 
+                {/* set up the information for the contact on the left side of the resume page*/}                     
                 <h2 style={{paddingTop: '2em'}}>Fady Ibrahim</h2>
                 <h4 style={{color: 'grey'}}>Software Developer</h4>
                 <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-
+                
+                {/* Summary of Qualifications */}
                 <p><i className="fa fa-paper-plane" aria-hidden="true" />
                 Detail-oriented software developer with 2 years of experience in financial firms managing client data and building big data infrastructure.
                 </p>
@@ -28,6 +30,7 @@ class ContactInformationResume extends Component{
                 Resolved environment inconsistencies allowing for a seamless transition from UAT to production
                 </p>
 
+                {/* contact information */}
                 <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                 <h5>Phone</h5>
                 <p>(226)779-4394</p>
