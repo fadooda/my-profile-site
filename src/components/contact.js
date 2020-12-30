@@ -6,8 +6,7 @@ class Contact extends Component{
     render(){
         return( 
             <div className='contact-body'>
-                <Grid className='contact-grid'>
-                    
+                <Grid className='contact-grid'>      
                     {/* set up left side of the contact page, where the image and the quote are */}
                     <Cell col={6}>
                         <h2>Fady Ibrahim</h2>

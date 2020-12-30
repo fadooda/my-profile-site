@@ -7,7 +7,6 @@ class LandingPage extends Component{
         return(
             <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className='landing-grid'>
-
                    {/* set up the home page with the profile image center and skills/font-awesome links underneath */}
                     <Cell col={12}>
                         <img
