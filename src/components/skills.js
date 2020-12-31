@@ -13,7 +13,7 @@ class Skills extends Component{
                     </div>
                 </Cell>
 
-                {/*Display the progress bar and set the value to the prop progress */}
+                {/*Display the progress bar and set the value to the prop progress  */}
                 <Cell col={11}>
                     <div >
                         <ProgressBar style={{margin: 'auto', width:'75%'}}
