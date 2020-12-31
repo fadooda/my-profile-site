@@ -9,9 +9,9 @@ class Resume extends Component{
     render(){
         return(
             <div>
-                
                 <Grid>
-                    <Cell col={4}>
+                 {/* Set up the respective resume image and the styling */}
+                 <Cell col={4}>
                         <div style ={{textAlign: 'center'}}>
                             <img
                                 src={profilePic}
@@ -21,8 +21,11 @@ class Resume extends Component{
                         </div>
                         <ContactInformationResume/>
                     </Cell>
-                    <Cell className='resume-right-col' col={8}>
 
+                 
+                 <Cell className='resume-right-col' col={8}>
+
+                        {/*Skills Section:::: Set up skills with the progress bar*/}
                         <hr style={{borderTop: '3px solid #e22947'}} />
                         <h2>Skills</h2>
 
@@ -49,6 +52,8 @@ class Resume extends Component{
                         style={{margin: 'auto'}}
                         progress={30}
                         />
+
+                        {/*Experience Section:::: Pass props containing STAR statements for the job experience*/}
                         <hr style={{borderTop: '3px solid #e22947'}} />    
                         <h2>Experience</h2>
                         <Experience 
@@ -61,6 +66,7 @@ class Resume extends Component{
                             actiontook=' Programmed a frontend JavaScript feature to send client-related excel files to an internal server using REST'
                             result=' Produced readable datasets for business analysis by ingesting and transforming data files using Mesa code on Palantir’s Foundry system'
                         />
+
                         <Experience 
                             startYear={2017}
                             endYear={2018}
@@ -71,6 +77,7 @@ class Resume extends Component{
                             actiontook=' Generated reports through SQL procedures for the purpose of ensuring that interest rates conformed to both domestic and international journals from a Brexit-analysis system.'
                             result=' Created a Linux script to restructure the file system of both production and UAT servers resolving environment inconsistencies'
                         />
+
                         <Experience 
                             startYear={2017}
                             endYear={2019}
@@ -81,6 +88,7 @@ class Resume extends Component{
                             result=''
                         />
 
+                        {/*Education Section:::: Pass props containing education information*/}
                         <hr style={{borderTop: '3px solid #e22947'}} />      
                         <h2>Education</h2>
                         <Education 
@@ -92,6 +100,8 @@ class Resume extends Component{
                         />
                                           
                     </Cell>
+
+                    {/* set and style footer */}
                     <div className='gridfooter'>
                     <p>
                         <strong>
