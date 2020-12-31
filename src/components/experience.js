@@ -6,9 +6,12 @@ class Experience extends Component{
     render(){
         return(
             <Grid>
+                 {/*Display the props passed -- start-year and end-year  */}
                 <Cell col={4}>
                     <p>{this.props.startYear}-{this.props.endYear}</p>
                 </Cell>
+
+                 {/*Display the job experience content */}
                 <Cell col={8}>
                     <h4 style={{marginTop: '0px'}}>{this.props.jobName}</h4>
                     {(this.props.situation)? <p> <i className="fa fa-star" aria-hidden="true" />{this.props.situation}</p> : null}
