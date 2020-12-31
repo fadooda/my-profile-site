@@ -5,6 +5,8 @@ import Education from './education'
 import Experience from './experience'
 import ContactInformationResume from './contactInfoResume'
 import Skills from './skills'
+
+
 class Resume extends Component{
     render(){
         return(
@@ -24,7 +26,6 @@ class Resume extends Component{
 
                  
                  <Cell className='resume-right-col' col={8}>
-
                         {/*Skills Section:::: Set up skills with the progress bar*/}
                         <hr style={{borderTop: '3px solid #e22947'}} />
                         <h2>Skills</h2>
