@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 
+
 class ContactInformationResume extends Component{
     render(){
         return(

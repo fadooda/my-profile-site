@@ -5,6 +5,8 @@ import AboutMe from './aboutMe'
 import Contact from './contact'
 import Projects from './projects'
 import Resume from './resume'
+
+
 const profileRoutes =()=>(
     <Switch>  
         {/* link  route paths to the respective component*/}

@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import {Grid, Cell} from 'react-mdl'
 import ProfileImg from '../ProfilePic.jpg'
 
+
 class LandingPage extends Component{
     render(){
         return(

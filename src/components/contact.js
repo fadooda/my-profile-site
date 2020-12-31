@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import {Grid, Cell,List,ListItem,ListItemContent} from 'react-mdl'
 import profileImg from '../profilepic_with_scenic_background.jpg'
 
+
 class Contact extends Component{
     render(){
         return( 
