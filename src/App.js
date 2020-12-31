@@ -6,13 +6,13 @@ import {Link} from 'react-router-dom'
 
 
 class App extends React.Component {
-  
   render()
   {
     return (
       <div className="App">
         <div className="demo-big-content">
           <Layout>
+             {/*Display the links in the navbar */}
             <Header className='header-color' title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Fady Ibrahim</Link>} scroll>
               <Navigation>
                   <Link to="/resume">Resume</Link>
@@ -21,6 +21,8 @@ class App extends React.Component {
                   <Link to="/contact">Contact</Link>
               </Navigation>
             </Header>
+
+            {/*Display the links in the drawer */}
             <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">Fady Ibrahim</Link>} scroll>
                 <Navigation>
                     <Link to="/resume">Resume</Link>
@@ -29,6 +31,8 @@ class App extends React.Component {
                     <Link to="/contact">Contact</Link>
                 </Navigation>
             </Drawer>
+
+             {/*Bring in routes which has the links mapped to the respective component ( projects, about me, contact etc.. )*/}
             <Content>
                 <div className="page-content" />
                 <ProfileRoutes/>
