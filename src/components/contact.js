@@ -34,7 +34,7 @@ class Contact extends Component{
                                 </ListItem>
                                 <ListItem >
                                 <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                                    <i className='fa fa-envelope' aria-hidden="true" style={{ paddingRight: '4.3rem'}}/>
+                                    <i className='fa fa-envelope' aria-hidden="true" style={{ paddingRight: '4rem'}}/>
                                     fadyibrahim37@gmail.com
                                 </ListItemContent>
                                 </ListItem>

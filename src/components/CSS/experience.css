@@ -1,0 +1,13 @@
+.experienceDate{
+    display: flex;
+    flex-direction: row;
+}
+
+.sample:after {
+    display : block;
+    text-align : center;
+    font-size : 4em;
+    margin : 20px auto;
+    color: #fff;
+    content: "—";
+}

@@ -18,7 +18,7 @@ class Resume extends Component{
                             <img
                                 src={profilePic}
                                 alt='profileimg'
-                                style={{height:'200px', borderRadius: '90%'}}
+                                style={{height:'300px', borderRadius: '90%'}}
                             />
                         </div>
                         <ContactInformationResume/>
@@ -58,36 +58,37 @@ class Resume extends Component{
                         <hr style={{borderTop: '3px solid #e22947'}} />    
                         <h2>Experience</h2>
                         <Experience 
-                            startYear={2018}
-                            endYear={2019}
-                            company='RBC'
-                            jobName='Contractor: Data Engineer'
-                            situation=' Configured Kerberos on a distributed cluster of Cassandra database servers for user authentication and enabling single sign-on across multiple interacting systems'
-                            taskassigned=' Collaborated in scrum meetings to design, code and execute a script to remove expired client files from Hadoop’s distributed file system'
-                            actiontook=' Programmed a frontend JavaScript feature to send client-related excel files to an internal server using REST'
-                            result=' Produced readable datasets for business analysis by ingesting and transforming data files using Mesa code on Palantir’s Foundry system'
-                        />
-
-                        <Experience 
-                            startYear={2017}
-                            endYear={2018}
-                            company='Deutsche Bank'
-                            jobName='Contractor: SQL Developer'
-                            situation=' Improved charge accuracy to client accounts by resolving a production issue that incorrectly rounded fee rates.'
-                            taskassigned=' Delivered several SQL procedures to calculate pricing on client assets and balances.'
-                            actiontook=' Generated reports through SQL procedures for the purpose of ensuring that interest rates conformed to both domestic and international journals from a Brexit-analysis system.'
-                            result=' Created a Linux script to restructure the file system of both production and UAT servers resolving environment inconsistencies'
-                        />
-
-                        <Experience 
-                            startYear={2017}
-                            endYear={2019}
+                            startYear={'May 2017'}
+                            endYear={'July 2019'}
                             jobName='FDM IT Consultant'
                             situation='Consulted for RBC and Deutche Bank'
                             taskassigned=''
                             actiontook=''
                             result=''
                         />
+                        
+                        <Experience 
+                            startYear={'April 2018'}
+                            endYear={'July 2019'}
+                            company='RBC'
+                            jobName='Contractor: Data Engineer'
+                            situation='Configured Kerberos on a distributed cluster of Cassandra database servers for user authentication and enabling single sign-on across multiple interacting systems'
+                            taskassigned='Collaborated in scrum meetings to design, code and execute a script to remove expired client files from Hadoop’s distributed file system'
+                            actiontook='Programmed a frontend JavaScript feature to send client-related excel files to an internal server using REST'
+                            result='Produced readable datasets for business analysis by ingesting and transforming data files using Mesa code on Palantir’s Foundry system'
+                        />
+
+                        <Experience 
+                            startYear={'July 2017'}
+                            endYear={'March 2018'}
+                            company='Deutsche Bank'
+                            jobName='Contractor: SQL Developer'
+                            situation='Improved charge accuracy to client accounts by resolving a production issue that incorrectly rounded fee rates.'
+                            taskassigned='Delivered several SQL procedures to calculate pricing on client assets and balances.'
+                            actiontook='Generated reports through SQL procedures for the purpose of ensuring that interest rates conformed to both domestic and international journals from a Brexit-analysis system.'
+                            result='Created a Linux script to restructure the file system of both production and UAT servers resolving environment inconsistencies'
+                        />
+
 
                         {/*Education Section:::: Pass props containing education information*/}
                         <hr style={{borderTop: '3px solid #e22947'}} />      
