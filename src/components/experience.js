@@ -1,15 +1,7 @@
 import React, {Component} from 'react'
 import {Grid, Cell} from 'react-mdl'
 import './CSS/experience.css'
-// <Cell col={1}>
-// <p style={{fontStyle: 'italic'}}>{this.props.startYear} </p>
-// </Cell>
-// <Cell col={1}>
-// <hr style={{borderTop: '3px solid #833fb2', width: '20px'}}/>
-// </Cell>
-// <Cell col={1}>
-// <p style={{fontStyle: 'italic'}}> {this.props.endYear}</p>
-// </Cell>
+
 
 class Experience extends Component{
     render(){
@@ -18,13 +10,7 @@ class Experience extends Component{
                  {/*Display the props passed -- start-year and end-year  */}
                 <Cell col={4}>
                     <div className='experienceDate'>
-                        <div>
-                            <p style={{fontStyle: 'italic'}}>{this.props.startYear} </p>
-                        </div>
-                            <hr style={{borderTop: '3px solid #833fb2', width: '20px'}}/>
-                        <div>
-                            <p> {this.props.endYear}</p>
-                        </div>
+                            <p style={{fontStyle: 'italic'}}>{this.props.startYear} --- {this.props.endYear}</p>
                     </div>
                 </Cell>
 
