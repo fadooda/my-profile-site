@@ -94,7 +94,7 @@ class Resume extends Component{
                             startYear={'May 2013'}
                             endYear={'September 2013'}
                             company='Employment and Social Development Canada'
-                            jobName='University-Co-op: C# Developer'
+                            jobName='University Co-op: C# Developer'
                             situation='Programmed the internal logic for a task scheduler that triggers any executable for a given date and time'
                             taskassigned='Integrated and designed a MVC scaffold in C# .NET that automated CRUD operations to streamline development of robust web pages'
                             actiontook='Utilized Log4Net to record all program execution information and any encountered bugs to the appropriate Oracle data table'
