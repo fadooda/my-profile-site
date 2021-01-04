@@ -92,7 +92,7 @@ class Resume extends Component{
 
                         <Experience 
                             startYear={'May 2013'}
-                            endYear={'September 201'}
+                            endYear={'September 2013'}
                             company='Employment and Social Development Canada'
                             jobName='University-Co-op: C# Developer'
                             situation='Programmed the internal logic for a task scheduler that triggers any executable for a given date and time'
