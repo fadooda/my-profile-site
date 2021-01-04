@@ -83,10 +83,21 @@ class Resume extends Component{
                             endYear={'March 2018'}
                             company='Deutsche Bank'
                             jobName='Contractor: SQL Developer'
-                            situation='Improved charge accuracy to client accounts by resolving a production issue that incorrectly rounded fee rates.'
-                            taskassigned='Delivered several SQL procedures to calculate pricing on client assets and balances.'
-                            actiontook='Generated reports through SQL procedures for the purpose of ensuring that interest rates conformed to both domestic and international journals from a Brexit-analysis system.'
+                            situation='Improved charge accuracy to client accounts by resolving a production issue that incorrectly rounded fee rates'
+                            taskassigned='Delivered several SQL procedures to calculate pricing on client assets and balances'
+                            actiontook='Generated reports through SQL procedures for the purpose of ensuring that interest rates conformed to both domestic and international journals from a Brexit-analysis system'
                             result='Created a Linux script to restructure the file system of both production and UAT servers resolving environment inconsistencies'
+                        />
+
+                        <Experience 
+                            startYear={'July 2013'}
+                            endYear={'March 2018'}
+                            company='Employment and Social Development Canada'
+                            jobName='University-Co-op: C# Developer'
+                            situation='Programmed the internal logic for a task scheduler that triggers any executable for a given date and time'
+                            taskassigned='Integrated and designed a MVC scaffold in C# .NET that automated CRUD operations to streamline development of robust web pages'
+                            actiontook='Utilized Log4Net to record all program execution information and any encountered bugs to the appropriate Oracle data table'
+                            result='Converted several code repositories from visual basic to C#'
                         />
 
 
