@@ -38,7 +38,7 @@ class Project extends Component{
                         
                         <CardText>
                             Want to know how to make a portfolio site?
-                            Checkout the this github repo for the codebase of this portfolio website.
+                            Check out the github link below for the codebase repository - This portfolio website.
                         </CardText>
 
                         {/* Set up respective link to the github repository ---- profile-site-github-server-repo*/}
