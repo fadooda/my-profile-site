@@ -60,6 +60,7 @@ class Resume extends Component{
                         <Experience 
                             startYear={'May 2017'}
                             endYear={'July 2019'}
+                            company='FDM Group'
                             jobName='FDM IT Consultant'
                             situation='Consulted for RBC and Deutsche Bank'
                             taskassigned=''
@@ -90,8 +91,8 @@ class Resume extends Component{
                         />
 
                         <Experience 
-                            startYear={'July 2013'}
-                            endYear={'March 2018'}
+                            startYear={'May 2013'}
+                            endYear={'September 201'}
                             company='Employment and Social Development Canada'
                             jobName='University-Co-op: C# Developer'
                             situation='Programmed the internal logic for a task scheduler that triggers any executable for a given date and time'
