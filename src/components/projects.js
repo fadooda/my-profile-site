@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {Tabs,Tab,Grid,Cell, Card, CardTitle,CardText, CardActions, Button} from 'react-mdl'
-
+import TickTactToeImg from '../TictacToeGame.png'
+import profileProjectReact from '../profile_site_pic.png'
 
 class Project extends Component{
     constructor(props){
@@ -15,7 +16,7 @@ class Project extends Component{
             return(
                 <div className="projects-grid">
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: 'black', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover'}}>React Project: game-site</CardTitle>
+                        <CardTitle style={{color: 'purple', height: '176px', background: `url(${TickTactToeImg}) center / cover`}}/>
                         {/* Set up project information*/}
                         <CardText>
                             An interactive online gaming site to showcase the power of websockets!! Grab a friend come on over and play!
@@ -33,10 +34,11 @@ class Project extends Component{
                     </Card>
 
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color:  'black', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover'}}>React Project: profile-site</CardTitle>
+                        <CardTitle style={{color:  'black', height: '176px', background: `url(${profileProjectReact}) center / cover`}}/>
                         
                         <CardText>
-                            The code repository for this profile website.
+                            Want to know how to make a portfolio site?
+                            Checkout the this github repo for the codebase of this portfolio website.
                         </CardText>
 
                         {/* Set up respective link to the github repository ---- profile-site-github-server-repo*/}

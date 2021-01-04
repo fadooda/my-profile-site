@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {Grid,Cell} from 'react-mdl'
-import profilePic from '../ProfilePic.jpg'
+import profilePic from '../profilepic.jpg'
 import Education from './education'
 import Experience from './experience'
 import ContactInformationResume from './contactInfoResume'
@@ -14,14 +14,14 @@ class Resume extends Component{
                 <Grid>
                  {/* Set up the respective resume image and the styling */}
                  <Cell col={4}>
-                        <div style ={{textAlign: 'center'}}>
+                        <div>
                             <img
                                 src={profilePic}
                                 alt='profileimg'
                                 style={{height:'300px', borderRadius: '90%'}}
                             />
                         </div>
-                        <ContactInformationResume/>
+                        <ContactInformationResume style ={{textAlign: 'center'}}/>
                     </Cell>
 
                  
@@ -61,7 +61,7 @@ class Resume extends Component{
                             startYear={'May 2017'}
                             endYear={'July 2019'}
                             jobName='FDM IT Consultant'
-                            situation='Consulted for RBC and Deutche Bank'
+                            situation='Consulted for RBC and Deutsche Bank'
                             taskassigned=''
                             actiontook=''
                             result=''
