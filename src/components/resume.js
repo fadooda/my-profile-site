@@ -5,6 +5,7 @@ import Education from './education'
 import Experience from './experience'
 import ContactInformationResume from './contactInfoResume'
 import Skills from './skills'
+import PageFooter from './pageFooter'
 
 
 class Resume extends Component{
@@ -112,19 +113,10 @@ class Resume extends Component{
                             schoolAddress='1125 Colonel By Dr, Ottawa, ON K1S 5B6'
                             degree='Bachelor of Engineering, Specialized in Software'
                         />
-                                          
                     </Cell>
-
-                    {/* set and style footer */}
-                    <div className='gridfooter'>
-                    <p>
-                        <strong>
-                            Copyright © 2020 by Fady Ibrahim. All Rights Reserved.
-                        </strong>
-                    </p>
-                </div>
                 </Grid>
-
+                
+                <PageFooter isGrid={true}/>
             </div>
         )
     }

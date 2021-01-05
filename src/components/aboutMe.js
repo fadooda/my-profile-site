@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {Grid,Cell} from 'react-mdl'
 import profilePic from '../profilepic_with_styled_hair.jpg'
+import PageFooter from './pageFooter'
 
 
 class Resume extends Component{
@@ -66,14 +67,7 @@ class Resume extends Component{
                     </Cell>
                 </Grid>
 
-                {/* set and style footer */}
-                <div className='gridfooter'>
-                        <p className='gridfooter'>
-                            <strong>
-                                Copyright © 2020 by Fady Ibrahim. All Rights Reserved.
-                            </strong>
-                        </p>
-                    </div>
+                <PageFooter isGrid={true}/>
             </div>
         )
     }

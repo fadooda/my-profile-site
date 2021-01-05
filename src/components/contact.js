@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {Grid, Cell,List,ListItem,ListItemContent} from 'react-mdl'
 import profileImg from '../profilepic_with_scenic_background.jpg'
+import PageFooter from './pageFooter'
 
 
 class Contact extends Component{
@@ -49,14 +50,7 @@ class Contact extends Component{
                 </Cell>
                 </Grid>
 
-                {/* set and style footer */}
-                <div className='footer'>
-                                <p>
-                                    <strong>
-                                        Copyright © 2020 by Fady Ibrahim. All Rights Reserved.
-                                    </strong>
-                                </p>
-                            </div>
+                <PageFooter isGrid={false}/>
             </div>
         )
     }

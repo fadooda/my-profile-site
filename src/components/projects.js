@@ -3,6 +3,8 @@ import {Tabs,Tab,Grid,Cell, Card, CardTitle,CardText, CardActions, Button} from 
 import TickTactToeImg from '../TictacToeGame.png'
 import nodeJsImg from '../images/nodejsimg.jpg'
 import profileProjectReact from '../profile_site_pic.png'
+import PageFooter from './pageFooter'
+
 
 class Project extends Component{
     constructor(props){
@@ -57,17 +59,8 @@ class Project extends Component{
                         null,
                         profileProjectReact)}
            
-
-                    {/* set and style footer */}
-                    <div className='footer'>
-                        <p>
-                            <strong>
-                                Copyright © 2020 by Fady Ibrahim. All Rights Reserved.
-                            </strong>
-                        </p>
-                    </div>
+                    <PageFooter isGrid={false}/>
                 </div>
-
             )
         }else if(this.state.activeTab===1){
             return(
@@ -87,15 +80,8 @@ class Project extends Component{
                         'https://github.com/fadooda/game-site-chat-app',
                         null,
                         nodeJsImg)}
-
-                    {/* set and style footer */}
-                    <div className='footer'>
-                        <p>
-                            <strong>
-                                Copyright © 2020 by Fady Ibrahim. All Rights Reserved.
-                            </strong>
-                        </p>
-                    </div>
+                        
+                    <PageFooter isGrid={false}/>
                 </div>
             )
 

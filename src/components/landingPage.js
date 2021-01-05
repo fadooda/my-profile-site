@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {Grid, Cell} from 'react-mdl'
 import ProfileImg from '../profilepic.jpg'
+import pageFooter from './pageFooter'
 
 
 class LandingPage extends Component{
@@ -47,14 +48,7 @@ class LandingPage extends Component{
                     </Cell>
                 </Grid>
 
-                 {/* set and style footer */}
-                <div className='footer'>
-                  <p>
-                      <strong>
-                          Copyright © 2020 by Fady Ibrahim. All Rights Reserved.
-                      </strong>
-                  </p>
-                </div>
+                {pageFooter}
             </div>
         )
     }
