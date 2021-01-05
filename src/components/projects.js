@@ -46,6 +46,7 @@ class Project extends Component{
         if(this.state.activeTab===0){
             return(
                 <div className="projects-grid">
+                    {/*React Projects*/}
                     {this.projectCardItem('An interactive online gaming site to showcase the power of websockets!! Grab a friend come on over and play!',
                         'https://github.com/fadooda/game-site-react-app',
                         'https://free-games-online.netlify.app/',
@@ -71,6 +72,7 @@ class Project extends Component{
         }else if(this.state.activeTab===1){
             return(
                 <div className="projects-grid">
+                    {/*NodeJS Projects*/}
                     {this.projectCardItem('Check out the node server for authenticating users!',
                         'https://github.com/fadooda/game-site-authenticate-users-app',
                         null,
