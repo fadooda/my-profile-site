@@ -2,6 +2,12 @@ import React, {Component} from 'react'
 
 
 class PageFooter extends Component{
+    getCurrDate()
+    {
+        let currdate = new Date();
+        return currdate.getFullYear()
+    }
+
     render(){
         return( //set and style footer
             <div>
@@ -9,7 +15,7 @@ class PageFooter extends Component{
                 <div className='gridfooter'>
                     <p className='gridfooter'>
                         <strong>
-                            Copyright © 2020 by Fady Ibrahim. All Rights Reserved.
+                            Copyright © {this.getCurrDate()} by Fady Ibrahim. All Rights Reserved.
                         </strong>
                     </p>
                 </div>
@@ -17,7 +23,7 @@ class PageFooter extends Component{
                 <div className='footer'>
                     <p>
                         <strong>
-                            Copyright © 2020 by Fady Ibrahim. All Rights Reserved.
+                            Copyright © {this.getCurrDate()} by Fady Ibrahim. All Rights Reserved.
                         </strong>
                     </p>
                 </div>
