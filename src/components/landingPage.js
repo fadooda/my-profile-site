@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {Grid, Cell} from 'react-mdl'
 import ProfileImg from '../profilepic.jpg'
-import pageFooter from './pageFooter'
+import PageFooter from './pageFooter'
 
 
 class LandingPage extends Component{
@@ -48,7 +48,7 @@ class LandingPage extends Component{
                     </Cell>
                 </Grid>
 
-                {pageFooter}
+                <PageFooter isGrid={false}/>
             </div>
         )
     }
