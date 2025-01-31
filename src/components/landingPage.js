@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {Grid, Cell} from 'react-mdl'
-import ProfileImg from '../profilepic.jpg'
+import ProfileImg from '../ProfilePic.jpg'
 import PageFooter from './pageFooter'
 
 

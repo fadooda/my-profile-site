@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {Grid,Cell} from 'react-mdl'
-import profilePic from '../profilepic.jpg'
+import profilePic from '../ProfilePic.jpg'
 import Education from './education'
 import Experience from './experience'
 import ContactInformationResume from './contactInfoResume'
@@ -31,29 +31,14 @@ class Resume extends Component{
                         <hr style={{borderTop: '3px solid #e22947'}} />
                         <h2>Skills</h2>
 
-                        <Skills 
-                        style={{margin: 'auto'}}
-                        skill="JavaScript"
-                        progress={77}
-                        />
-
-                        <Skills 
-                        skill="NodeJS"
-                        style={{margin: 'auto'}}
-                        progress={70}
-                        />
-                        
-                         <Skills 
-                        skill="React"
-                        style={{margin: 'auto'}}
-                        progress={45}
-                        />
-                       
-                        <Skills 
-                        skill="HTML/CSS"
-                        style={{margin: 'auto'}}
-                        progress={30}
-                        />
+                        <Skills skill="JavaScript" progress={85} />
+                        <Skills skill="React.js" progress={80} />
+                        <Skills skill="Node.js" progress={75} />
+                        <Skills skill="Scala" progress={70} />
+                        <Skills skill="SQL" progress={80} />
+                        <Skills skill="Kubernetes/Docker" progress={65} />
+                        <Skills skill="DevOps" progress={70} />
+                        <Skills skill="Palantir Foundry" progress={60} />
 
                         {/*Experience Section:::: Pass props containing STAR statements for the job experience*/}
                         <hr style={{borderTop: '3px solid #e22947'}} />    
