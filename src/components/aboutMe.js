@@ -25,13 +25,19 @@ class Resume extends Component{
                             <hr style={{borderTop: '3px solid #e22947'}} />
                             <h2>About Me</h2>
                             <p>
-                            Fady is a experienced IT professional and a graduate of Carleton University’s software engineering program.
-                            He has an analytical mind and a passion for applying problem solving in his work.
-                            Through his devotion to his projects Fady has gained the invaluable qualities of perseverance and self-starting.
-                            He has returned from a 16-month contract at RBC, where he gained experience in managing and transforming big data streams to be used for business analytics. 
-                            He also applied his expertise towards security and authentication of the company’s distributed systems. 
-                            Fady envisions himself to be part of an active team working towards making an impact not only to the company, but to society at large through his software engineering skills.
+                                Fady Ibrahim is a software engineer with over 5 years of hands-on experience in developing scalable applications and managing distributed systems.
+                                A graduate of Carleton University’s Software Engineering program, he brings a strong analytical mindset and a passion for problem-solving to his work.
                             </p>
+                            <p>
+                                Fady has contributed to key projects in both the financial and SaaS industries, where he gained experience in data transformation, SQL optimization, cloud infrastructure,
+                                and improving system performance. At AppDirect, he applied DevOps best practices to maintain high service reliability and developed data-driven reporting solutions that
+                                supported strategic business decisions.
+                            </p>
+                            <p>
+                                His time at RBC and Deutsche Bank gave him valuable experience in handling large data streams, enhancing system security, and automating data management processes.
+                                Fady enjoys working in collaborative Agile environments and continuously seeks opportunities to learn and apply new skills to create meaningful solutions.
+                            </p>
+
 
                             {/* create a border line for the next section */}
                             <hr style={{borderTop: '3px solid #e22947'}} />    
@@ -45,7 +51,7 @@ class Resume extends Component{
                             </p>
                             <p>
                                 <i className="fa fa-bug" aria-hidden="true"  style={{paddingRight: '1em'}}/>
-                                Nature walks
+                                Nature walks and exploring ancient ruins
                             </p>
                             <p>
                                 <i className="fa fa-bug" aria-hidden="true"  style={{paddingRight: '1em'}}/>
