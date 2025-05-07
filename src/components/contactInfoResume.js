@@ -40,6 +40,24 @@ class ContactInformationResume extends Component{
                 <h5>Web</h5>
                 <p>https://fadyibrahim.netlify.app/</p>
                 <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+                
+                <div style={{ textAlign: 'center', margin: '20px 0' }}>
+                    <a
+                        href="/Fady_Resume.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{
+                            textDecoration: 'none',
+                            fontWeight: 'bold',
+                            color: '#e22947',
+                            border: '2px solid #e22947',
+                            padding: '10px 20px',
+                            borderRadius: '5px'
+                        }}
+                    >
+                        📄 Download PDF Resume
+                    </a>
+                </div>
             </div>
         )
     }
