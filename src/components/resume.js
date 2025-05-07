@@ -32,59 +32,64 @@ class Resume extends Component{
                         <h2>Skills</h2>
 
                         <Skills skill="JavaScript" progress={85} />
-                        <Skills skill="React.js" progress={80} />
-                        <Skills skill="Node.js" progress={75} />
-                        <Skills skill="Scala" progress={70} />
+                        <Skills skill="React.js" progress={70} />
+                        <Skills skill="Node.js" progress={65} />
+                        <Skills skill="Scala" progress={40} />
                         <Skills skill="SQL" progress={80} />
-                        <Skills skill="Kubernetes/Docker" progress={65} />
-                        <Skills skill="DevOps" progress={70} />
-                        <Skills skill="Palantir Foundry" progress={60} />
+                        <Skills skill="Kubernetes/Docker" progress={47} />
+                        <Skills skill="DevOps" progress={44} />
 
                         {/*Experience Section:::: Pass props containing STAR statements for the job experience*/}
                         <hr style={{borderTop: '3px solid #e22947'}} />    
                         <h2>Experience</h2>
+                        
                         <Experience 
-                            startYear={'May 2017'}
-                            endYear={'July 2019'}
-                            company='FDM Group'
-                            jobName='FDM IT Consultant'
-                            situation='Consulted for RBC and Deutsche Bank'
-                            taskassigned=''
-                            actiontook=''
-                            result=''
+                            startYear={'June 2024'}
+                            endYear={'April 2025'}
+                            company='Career Break'
+                            taskone='Took a planned career break to attend to personal matters. During this time I’ve earned an SQL (Advanced) and JavaScript (Intermediate) certifications from HackerRank; completed 100+ LeetCode challenges to refine data structures, SQL and algorithms skills'
+                        />
+                        
+                        <Experience
+                            startYear={'FEBRUARY 2021'}
+                            endYear={'MAY 2024'}
+                            company="APPDIRECT"
+                            jobName="Full-Stack Engineer"
+                            taskone="Software Development: Built React.js/Redux-based search feature, enabling users to make selections 70% faster than with the previous dropdown approach. Achieved 100% Jest test coverage for critical components."
+                            tasktwo="Business Analytics Reporting: Developed SQL-based 'Bookings Report' for $100M+ subscription analytics (MRR/GMV metrics)."
+                            taskthree="Data Visualization & Monitoring: Integrated Datadog API for real-time visualization of 10K+ user interaction metrics."
+                            taskfour="DevOps Integration: Implemented Kubernetes and Docker best practices to improve system reliability, contributing to the team’s goal of reaching 99.9% uptime (Three Nines reliability)."
+                            taskfive="Database Configuration: Updated the database connection to use an AWS Aurora-compatible driver for improved compatibility and performance."
                         />
                         
                         <Experience 
                             startYear={'April 2018'}
                             endYear={'July 2019'}
                             company='RBC'
-                            jobName='Contractor: Data Engineer'
-                            situation='Configured Kerberos on a distributed cluster of Cassandra database servers for user authentication and enabling single sign-on across multiple interacting systems'
-                            taskassigned='Collaborated in scrum meetings to design, code and execute a script to remove expired client files from Hadoop’s distributed file system'
-                            actiontook='Programmed a frontend JavaScript feature to send client-related excel files to an internal server using REST'
-                            result='Produced readable datasets for business analysis by ingesting and transforming data files using Mesa code on Palantir’s Foundry system'
+                            jobName='Contractor - Data Engineer'
+                            taskone='Security and Authentication: Configured Kerberos for LDAP integration on Cassandra cluster; enabled secure single sign-on.'
+                            tasktwo='Data Transformation and Analysis: Processed 100GB+ Avro files into structured datasets using Palantir Foundry.'
+                            taskthree='Data Management Automation: Co-developed UNIX scripts to automate HDFS file expiration, optimizing storage by 15%.'
                         />
 
                         <Experience 
                             startYear={'July 2017'}
                             endYear={'March 2018'}
                             company='Deutsche Bank'
-                            jobName='Contractor: SQL Developer'
-                            situation='Improved charge accuracy to client accounts by resolving a production issue that incorrectly rounded fee rates'
-                            taskassigned='Delivered several SQL procedures to calculate pricing on client assets and balances'
-                            actiontook='Generated reports through SQL procedures for the purpose of ensuring that interest rates conformed to both domestic and international journals from a Brexit-analysis system'
-                            result='Created a Linux script to restructure the file system of both production and UAT servers resolving environment inconsistencies'
+                            jobName='Contractor - SQL Developer'
+                            taskone='SQL Production Issue Resolution: Fixed SQL report issue, saving $100K+ by correcting rounded fee rate calculations.'
+                            tasktwo='Query Optimization: Optimized Sybase SQL procedure for a 5M+ row reconciliation dataset; reduced query time from 20 minutes to 5 by replacing self-joins with CASE-based pivoting.'
                         />
 
                         <Experience 
                             startYear={'May 2013'}
                             endYear={'September 2013'}
                             company='Employment and Social Development Canada'
-                            jobName='University Co-op: C# Developer'
-                            situation='Programmed the internal logic for a task scheduler that triggers any executable for a given date and time'
-                            taskassigned='Integrated and designed a MVC scaffold in C# .NET that automated CRUD operations to streamline development of robust web pages'
-                            actiontook='Utilized Log4Net to record all program execution information and any encountered bugs to the appropriate Oracle data table'
-                            result='Converted several code repositories from visual basic to C#'
+                            jobName='University Co-op - C# Developer'
+                            taskone='MVC Automation: Designed and integrated an MVC scaffold in C# .NET to automate CRUD operations, streamlining robust web page development.'
+                            tasktwo='Task Scheduling Logic: Programmed internal logic for a task scheduler to trigger any executable at a specified date and time.'
+                            taskthree='Logging and Monitoring: Utilized Log4Net to capture execution logs and errors, directing them to the appropriate Oracle database tables.'
+                            taskfour='Code Modernization: Migrated multiple legacy Visual Basic repositories to C# to improve maintainability and integration with modern development workflows.'
                         />
 
 
