@@ -25,17 +25,24 @@ class Resume extends Component{
                             <hr style={{borderTop: '3px solid #e22947'}} />
                             <h2>About Me</h2>
                             <p>
-                                Fady Ibrahim is a software engineer with over 5 years of hands-on experience in developing scalable applications and managing distributed systems.
-                                A graduate of Carleton University’s Software Engineering program, he brings a strong analytical mindset and a passion for problem-solving to his work.
-                            </p>
-                            <p>
-                                Fady has contributed to key projects in both the financial and SaaS industries, where he gained experience in data transformation, SQL optimization, cloud infrastructure,
-                                and improving system performance. At AppDirect, he applied DevOps best practices to maintain high service reliability and developed data-driven reporting solutions that
-                                supported strategic business decisions.
-                            </p>
-                            <p>
-                                His time at RBC and Deutsche Bank gave him valuable experience in handling large data streams, enhancing system security, and automating data management processes.
-                                Fady enjoys working in collaborative Agile environments and continuously seeks opportunities to learn and apply new skills to create meaningful solutions.
+                            I am a results-driven Full-Stack Engineer with over five years of experience designing and optimizing scalable, high-performance applications and distributed systems. I specialize in React.js, Node.js, SQL, Kubernetes, and DevOps, with a strong background in data analytics, reliability engineering, and cloud technologies.
+
+I have successfully optimized SQL queries, achieving a 75% efficiency gain, and developed SQL-based reporting solutions supporting $100M+ in subscription analytics. Additionally, I have experience in DevOps, system monitoring, and security integration to enhance software reliability and performance. Currently, I am pursuing an AWS Developer Associate certification (exp. May 2025) to deepen my cloud expertise.
+
+Key Achievements
+✅ Full-Stack Development: At AppDirect, built a React.js/Redux-based search feature, improving selection speed by 70% and achieving 100% Jest test coverage for critical components.
+✅ DevOps & Monitoring: Integrated Datadog for real-time visualization of 10K+ user interactions, enhancing system observability and troubleshooting.
+✅ SQL Optimization: At Deutsche Bank, reduced SQL query execution time from 20 minutes to 5 minutes by refactoring 5M+ row reconciliation datasets and eliminating inefficient self-joins.
+✅ Security & Authentication: Configured Kerberos authentication for LDAP integration in a distributed Cassandra cluster, ensuring secure single sign-on (SSO) access.
+
+Core Competencies
+🔹 Programming Languages: JavaScript, SQL, Scala
+🔹 Frameworks & Tools: React.js, Node.js, Jest, Kafka
+🔹 Databases: MySQL, Sybase, MongoDB
+🔹 DevOps & Monitoring: Kubernetes, Docker, Datadog
+🔹 Security & Infrastructure: UNIX scripting, LDAP authentication, Kerberos
+
+I am passionate about designing scalable, efficient, and maintainable software solutions, collaborating with cross-functional teams, and leveraging data-driven insights to drive business impact. Let’s connect to explore opportunities where I can contribute my engineering expertise and problem-solving skills to cutting-edge projects.
                             </p>
 
 
