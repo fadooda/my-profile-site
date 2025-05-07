@@ -25,24 +25,44 @@ class Resume extends Component{
                             <hr style={{borderTop: '3px solid #e22947'}} />
                             <h2>About Me</h2>
                             <p>
-                            I am a results-driven Full-Stack Engineer with over five years of experience designing and optimizing scalable, high-performance applications and distributed systems. I specialize in React.js, Node.js, SQL, Kubernetes, and DevOps, with a strong background in data analytics, reliability engineering, and cloud technologies.
-
-I have successfully optimized SQL queries, achieving a 75% efficiency gain, and developed SQL-based reporting solutions supporting $100M+ in subscription analytics. Additionally, I have experience in DevOps, system monitoring, and security integration to enhance software reliability and performance. Currently, I am pursuing an AWS Developer Associate certification (exp. May 2025) to deepen my cloud expertise.
-
-Key Achievements
-✅ Full-Stack Development: At AppDirect, built a React.js/Redux-based search feature, improving selection speed by 70% and achieving 100% Jest test coverage for critical components.
-✅ DevOps & Monitoring: Integrated Datadog for real-time visualization of 10K+ user interactions, enhancing system observability and troubleshooting.
-✅ SQL Optimization: At Deutsche Bank, reduced SQL query execution time from 20 minutes to 5 minutes by refactoring 5M+ row reconciliation datasets and eliminating inefficient self-joins.
-✅ Security & Authentication: Configured Kerberos authentication for LDAP integration in a distributed Cassandra cluster, ensuring secure single sign-on (SSO) access.
-
-Core Competencies
-🔹 Programming Languages: JavaScript, SQL, Scala
-🔹 Frameworks & Tools: React.js, Node.js, Jest, Kafka
-🔹 Databases: MySQL, Sybase, MongoDB
-🔹 DevOps & Monitoring: Kubernetes, Docker, Datadog
-🔹 Security & Infrastructure: UNIX scripting, LDAP authentication, Kerberos
-
-I am passionate about designing scalable, efficient, and maintainable software solutions, collaborating with cross-functional teams, and leveraging data-driven insights to drive business impact. Let’s connect to explore opportunities where I can contribute my engineering expertise and problem-solving skills to cutting-edge projects.
+                                I am a results-driven Full-Stack Engineer with over five years of experience designing and optimizing scalable, high-performance applications and distributed systems. I specialize in React.js, Node.js, SQL, Kubernetes, and DevOps, with a strong background in data analytics, reliability engineering, and cloud technologies.
+                                I have successfully optimized SQL queries, achieving a 75% efficiency gain, and developed SQL-based reporting solutions supporting $100M+ in subscription analytics. Additionally, I have experience in DevOps, system monitoring, and security integration to enhance software reliability and performance. Currently pursuing career opportunities to deepen cloud expertise, focusing on automation, reliability, and user experience, with the aim of contributing to cloud-native, scalable systems in a Full-Stack or Cloud Engineering role.
+                            </p>
+                            <p>
+                                Key Achievements
+                            </p>
+                            <p>
+                                ✅ Full-Stack Development: At AppDirect, built a React.js/Redux-based search feature, improving selection speed by 70% and achieving 100% Jest test coverage for critical components.
+                            </p>
+                            <p>
+                                ✅ DevOps & Monitoring: Integrated Datadog for real-time visualization of 10K+ user interactions, enhancing system observability and troubleshooting.
+                            </p>
+                            <p>
+                                ✅ SQL Optimization: At Deutsche Bank, reduced SQL query execution time from 20 minutes to 5 minutes by refactoring 5M+ row reconciliation datasets and eliminating inefficient self-joins.
+                            </p>
+                            <p>
+                                ✅ Security & Authentication: Configured Kerberos authentication for LDAP integration in a distributed Cassandra cluster, ensuring secure single sign-on (SSO) access.
+                            </p>
+                            <p>
+                                Core Competencies
+                            </p>
+                            <p>
+                                🔹 Programming Languages: JavaScript, SQL, Scala
+                            </p>
+                            <p>
+                                🔹 Frameworks & Tools: React.js, Node.js, Jest, Kafka
+                            </p>
+                            <p>
+                                🔹 Databases: MySQL, Sybase, MongoDB
+                            </p>
+                            <p>
+                                🔹 DevOps & Monitoring: Kubernetes, Docker, Datadog
+                            </p>
+                            <p>
+                                🔹 Security & Infrastructure: UNIX scripting, LDAP authentication, Kerberos
+                            </p>
+                            <p>
+                                I am passionate about designing scalable, efficient, and maintainable software solutions, collaborating with cross-functional teams, and leveraging data-driven insights to drive business impact. Let’s connect to explore opportunities where I can contribute my engineering expertise and problem-solving skills to cutting-edge projects.
                             </p>
 
 
