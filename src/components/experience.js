@@ -17,10 +17,11 @@ class Experience extends Component{
                  {/*Display the job experience content */}
                 <Cell col={8}>
                     <h4 style={{marginTop: '0px'}}>{this.props.jobName}</h4>
-                    {(this.props.situation)? <p> <i className="fa fa-star" aria-hidden="true" style={{paddingRight: '1em'}}/>{this.props.situation}</p> : null}
-                    {(this.props.taskassigned)? <p> <i className="fa fa-star" aria-hidden="true" style={{paddingRight: '1em'}} />{this.props.taskassigned}</p> : null}
-                    {(this.props.actiontook)? <p> <i className="fa fa-star" aria-hidden="true" style={{paddingRight: '1em'}}/>{this.props.actiontook}</p> : null}
-                    {(this.props.result)? <p> <i className="fa fa-star" aria-hidden="true" style={{paddingRight: '1em'}}/>{this.props.result}</p> : null}
+                    {(this.props.taskone)? <p> <i className="fa fa-star" aria-hidden="true" style={{paddingRight: '1em'}}/>{this.props.taskone}</p> : null}
+                    {(this.props.tasktwo)? <p> <i className="fa fa-star" aria-hidden="true" style={{paddingRight: '1em'}} />{this.props.tasktwo}</p> : null}
+                    {(this.props.taskthree)? <p> <i className="fa fa-star" aria-hidden="true" style={{paddingRight: '1em'}}/>{this.props.taskthree}</p> : null}
+                    {(this.taskfour)? <p> <i className="fa fa-star" aria-hidden="true" style={{paddingRight: '1em'}}/>{this.taskfour}</p> : null}
+                    {(this.taskfive)? <p> <i className="fa fa-star" aria-hidden="true" style={{paddingRight: '1em'}}/>{this.taskfive}</p> : null}
                 </Cell>
             </Grid>
         )
