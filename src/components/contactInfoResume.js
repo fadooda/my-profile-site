@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-
+import './CSS/contactInfoResume.css'
 
 class ContactInformationResume extends Component{
     render(){
@@ -41,21 +41,13 @@ class ContactInformationResume extends Component{
                 <p>https://fadyibrahim.netlify.app/</p>
                 <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                 
-                <div style={{ textAlign: 'center', margin: '20px 0' }}>
+                <div style={{ margin: '20px 0' }}>
                     <a
-                        href="/Fady_Resume.pdf"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        style={{
-                            textDecoration: 'none',
-                            fontWeight: 'bold',
-                            color: '#e22947',
-                            border: '2px solid #e22947',
-                            padding: '10px 20px',
-                            borderRadius: '5px'
-                        }}
+                        href="/Fady_Ibrahim_Resume.pdf"
+                        download="Fady_Ibrahim_Resume.pdf"
+                        className="download-btn"
                     >
-                        📄 Download PDF Resume
+                        📄 Download Fady Ibrahim's PDF Resume
                     </a>
                 </div>
             </div>

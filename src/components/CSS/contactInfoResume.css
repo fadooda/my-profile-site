@@ -1,0 +1,11 @@
+/* In your CSS file */
+.download-btn {
+    text-decoration: none;
+    font-weight: bold;
+    color: #e22947;
+    border: 2px solid #e22947;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
