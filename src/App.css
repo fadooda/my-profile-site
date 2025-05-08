@@ -62,6 +62,11 @@ height: 100%;
 
 .projects-grid {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 .contact-body{
@@ -118,7 +123,8 @@ height: 100%;
   background: #833ab4;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  z-index: 1000;              /* 🆕 Add this */
+  height: 4rem;               /* 🆕 Add this so we can pad for it */
 }
 
 .gridfooter{
@@ -134,3 +140,4 @@ height: 100%;
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
