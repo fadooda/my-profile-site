@@ -1,0 +1,23 @@
+/* src/components/CertificateCard.css */
+.hover-image-wrapper {
+    overflow: hidden;
+    border-radius: 4px;
+  }
+  
+  .hover-image {
+    transition: transform 0.3s ease;
+  }
+  
+  .hover-image-wrapper:hover .hover-image {
+    transform: scale(1.1);
+  }
+  
+  
+  .mdl-card {
+    width: 100%;
+    max-width: 450px;
+    box-sizing: border-box;
+  }
+  .projects-grid {
+    margin-bottom: 5rem;  /* leave space for the fixed footer */
+  }
