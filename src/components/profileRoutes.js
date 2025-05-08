@@ -5,6 +5,7 @@ import AboutMe from './aboutMe'
 import Contact from './contact'
 import Projects from './projects'
 import Resume from './resume'
+import Certificate from './certificate'
 
 
 const profileRoutes =()=>(
@@ -14,6 +15,7 @@ const profileRoutes =()=>(
         <Route  path="/aboutme" component={AboutMe} />
         <Route  path="/resume" component={Resume} />
         <Route  path="/projects" component={Projects} />
+        <Route  path="/certificate" component={Certificate} />
         <Route  path="/contact" component={Contact} />
     </Switch>
 )

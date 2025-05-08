@@ -19,6 +19,7 @@ class App extends React.Component {
                     <Link to="/resume">Resume</Link>
                     <Link to="/aboutme">About me</Link>
                     <Link to="/projects">Projects</Link>
+                    <Link to="/certificate">Certificates</Link>
                     <Link to="/contact">Contact</Link>
                 </Navigation>
               </Header>
@@ -29,6 +30,7 @@ class App extends React.Component {
                       <Link to="/resume">Resume</Link>
                       <Link to="/aboutme">About me</Link>
                       <Link to="/projects">Projects</Link>
+                      <Link to="/certificate">Certificates</Link>
                       <Link to="/contact">Contact</Link>
                   </Navigation>
               </Drawer>
