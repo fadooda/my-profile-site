@@ -39,12 +39,6 @@ class Contact extends Component{
                                     fadyibrahim37@gmail.com
                                 </ListItemContent>
                                 </ListItem>
-                                <ListItem >
-                                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                                    <i className='fa fa-skype' aria-hidden="true" style={{ paddingRight: '5rem'}}/>
-                                    live:fady31_1
-                                </ListItemContent>
-                                </ListItem>
                             </List>
                         </div>
                 </Cell>
